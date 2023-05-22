@@ -121,4 +121,4 @@ def get_notes(page_id, file_name, min_size=10000, sort_by='hot'):
                         print('爬取失败: ' + note['id'])
     print(f'爬取完成，共{success_count}条，失败{failed_count}条')
 
-get_notes('6388e0ef91a3040001ea3d77', 'ChatGPT_latest', 1000, 'time')
+get_notes('62b20313e35fd70001011700', 'AIGC_hot', 1000, 'hot')
